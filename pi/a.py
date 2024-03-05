@@ -1,3 +1,4 @@
+# given a string.
 def find_num(word):
     help_dict = {
         'one': '1',
@@ -51,4 +52,3 @@ while(i< len(s)):
 sum = int(result[0]) + int(result[len(result)-1])
 print(sum) 
 
-# 139439
