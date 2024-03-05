@@ -1,4 +1,4 @@
-# given a string.
+# given a string
 def find_num(word):
     help_dict = {
         'one': '1',
