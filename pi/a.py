@@ -23,6 +23,7 @@ def find_num(word):
         'nine',
         'zero'
     ]
+
     for num in nums:
         if num in word:
             return help_dict[num]
