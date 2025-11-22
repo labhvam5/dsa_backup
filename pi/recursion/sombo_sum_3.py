@@ -30,3 +30,17 @@ class Solution:
         ans = []
         self.comb_sum(0, n, arr, max_seq, k, [], ans)
         return ans
+    
+
+
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    fib(n-1) + fib(n-2)
+    
+
+
+fib(5) -> 0,1,1,2,3,5

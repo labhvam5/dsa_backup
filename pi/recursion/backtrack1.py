@@ -1,5 +1,5 @@
 # Print 1 to n without using + sign
-def print_line(i ):
+def print_line(i):
     if i < 1:
         return
     print_line(i-1)
@@ -15,3 +15,18 @@ def print_line(i, n):
     print_line(i+1,n)
     
 print_line(1,4)
+
+
+
+
+3,2,1
+
+def print_line(i, n):
+    if i > n:
+        return
+    print_line(i+1, n)
+    print(i)
+
+
+
+print(1,3)
